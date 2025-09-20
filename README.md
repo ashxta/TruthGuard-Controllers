@@ -46,7 +46,6 @@ The backend handles AI analysis and serves as the API for the frontend.
 2. Install dependencies:  
    ```bash
    pip install "fastapi[all]" "uvicorn[standard]" transformers torch
-````
 
 3. Start the FastAPI server (models will download on first run):
 
