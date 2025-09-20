@@ -34,6 +34,20 @@ This project is a full-stack application composed of a **React frontend** and a 
 
 ---
 
+## ☁️ Google Cloud Integration
+
+TruthGuard is designed to be **cloud-native**, making it easy to deploy, scale, and manage on **Google Cloud Platform (GCP)**:
+
+- **Compute Engine / Cloud Run** → Hosts the FastAPI backend with autoscaling.  
+- **Cloud Storage** → Stores AI models, datasets, and logs efficiently.  
+- **BigQuery** → Enables advanced analytics for misinformation trend tracking.  
+- **Vertex AI** → Can be leveraged for training, fine-tuning, and serving custom ML models.  
+- **IAM & Security** → Ensures role-based access control and data protection.  
+
+This integration allows TruthGuard to handle real-world scale with **high availability, low latency, and secure AI inference**.
+
+---
+
 ## 🚀 Getting Started
 
 To run this project, set up both the **backend** and the **frontend**.
@@ -46,6 +60,7 @@ The backend handles AI analysis and serves as the API for the frontend.
 2. Install dependencies:  
    ```bash
    pip install "fastapi[all]" "uvicorn[standard]" transformers torch
+
 
 3. Start the FastAPI server (models will download on first run):
 
@@ -97,5 +112,3 @@ This project is licensed under the **MIT License**.
 
 ```
 
-Do you want me to also add **badges** (like build status, license, tech stack logos) at the top to give it a more professional GitHub look?
-```
